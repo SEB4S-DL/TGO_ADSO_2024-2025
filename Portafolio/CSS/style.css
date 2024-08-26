@@ -1,0 +1,243 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/*---------------------Cuerpo y encabezado--------------------------------------*/
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+    font-size: 1rem;
+    background-color: #004C97;
+    max-width: 100%;
+    width: 1700px;
+    height: 90px;
+    margin: 0 auto;
+    top: 0;
+    color: #fff;
+}
+nav ul
+{
+    width: 350px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav ul li a
+{
+    color: #fff;
+}
+nav ul li a:hover
+{
+    color: aqua;
+}
+#imagenrostro
+{
+    width: 10%;
+}
+body
+{
+    font-family: arial;
+    background-color: #002346 ;
+    margin: 0%;
+    padding: 0%;
+}
+#container
+{
+    background-color: #026ad1;
+    margin: 0%;
+    padding: 0.1%;
+}
+.hipervinculos
+{
+    color: #fff;
+}
+.btn
+{
+    position: relative;
+    text-align: center;
+    padding: 20px 50px;
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: aqua;
+}
+.btn:active
+{
+    background-color: #002346;
+}
+
+/*----------------Seccion sobre mi--------------------------------------------*/
+
+#sm
+{
+    text-align: center;
+    color: #fff;
+    background-color: #002346;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    margin-top: 10%;
+    border: 3px solid aqua;
+    padding-top: 120px;
+}
+
+
+
+/*------------Seccion habilidades----------------------------------------------------*/
+#hab
+{
+    margin: 0.5%;
+    border: 3px solid aqua;
+    border-radius: 20px;
+}
+#mh
+{
+    margin-left: 10%;
+}
+.habilidades {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 40px 0;
+    border-radius: 20px;
+    padding-top: 100px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.skill-category {
+    background: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    width: 100%;
+}
+
+.skill-category h2 {
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    background-color: #444;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.progress {
+    background-color: #00b2b8;
+    height: 100%;
+    width: 0; /* Se ajusta con inline style */
+}
+/*-----------------------------------------------------------------*/
+
+/*Seccion proyectos---------------------------------------------------------------------------*/
+/*#pro
+{
+    background-color: #1a1a1a;
+    color: #fff;
+}
+/*--------------------------------------------------------------------------------------------*/
+/*Seccion contacto------------------------------------------------------------------------------------*/
+#conta
+{
+    display: flex;
+    justify-content: center;
+    background-color: #002346;
+    color: #fff;
+    border: 3px solid aqua;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+.inputs
+{
+    background-color: #026ad1;
+    border: 3px solid aqua;
+    border-radius: 10px;
+    color: #fff;
+}
+#btn-enviar
+{
+    background-color: #026ad1;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 3px solid aqua;
+    color: #fff;
+    padding: 5px;
+
+}
+#btn-enviar:hover
+{
+    background-color: #00b2b8;
+    cursor: pointer;
+}
+#btn-enviar:active
+{
+    background-color: aqua;
+}
+/*-----------------------------------------------------------------------------------*/
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 100%;
+    background-color: #004C97;
+    color: #fff;
+    border-radius: 20px;
+}
+
+@media only screen and(max-whidth: 620px)
+{
+    header
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        z-index: 2;
+        background-color: #004C97;
+        width: 100%;
+        height: 100px;
+        margin: 0 auto;
+        top: 0;
+        color: #fff;
+    }
+
+    nav ul
+    {
+        width: 350px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
