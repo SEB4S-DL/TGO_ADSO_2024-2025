@@ -1,0 +1,51 @@
+/* Estilos para el contenedor del semáforo */
+.semaforo {
+    margin: 0 auto; /* Centra el semáforo horizontalmente */
+    margin-top: 15%; /* Espacio en la parte superior del semáforo */
+    width: 250px; /* Ancho del contenedor del semáforo */
+    height: 100px; /* Altura del contenedor del semáforo */
+    background-color: #000; /* Color de fondo del semáforo (negro) */
+    border-radius: 10px; /* Bordes redondeados del contenedor */
+    display: flex; /* Usa el modelo de caja flexible para el contenedor */
+    align-items: center; /* Alinea los elementos hijos verticalmente al centro */
+    justify-content: space-around; /* Distribuye los elementos hijos horizontalmente con espacio alrededor */
+    padding: 10px; /* Espacio interno alrededor del contenido */
+    gap: 10px; /* Espacio entre los elementos hijos */
+    transition: 0.3s; /* Transición suave para cambios en el tamaño */
+}
+
+/* Estilo para el semáforo al pasar el ratón sobre él */
+.semaforo:hover {
+    width: 270px; /* Aumenta el ancho del semáforo en hover */
+    height: 120px; /* Aumenta la altura del semáforo en hover */
+}
+
+/* Estilos comunes para las luces */
+.luz {
+    width: 80px; /* Ancho de las luces */
+    height: 80px; /* Altura de las luces */
+    border-radius: 50%; /* Hace que las luces sean redondas */
+    background-color: #222; /* Color apagado por defecto de las luces (gris oscuro) */
+    transition: 0.3s; /* Transición suave para cambios en el tamaño */
+}
+
+/* Estilo para las luces al pasar el ratón sobre ellas */
+.luz:hover {
+    width: 100px; /* Aumenta el ancho de las luces en hover */
+    height: 100px; /* Aumenta la altura de las luces en hover */
+}
+
+/* Estilos específicos para la luz roja */
+#rojo {
+    background-color: red; /* Color de la luz roja */
+}
+
+/* Estilos específicos para la luz amarilla */
+#amarillo {
+    background-color: yellow; /* Color de la luz amarilla */
+}
+
+/* Estilos específicos para la luz verde */
+#verde {
+    background-color: green; /* Color de la luz verde */
+}
