@@ -1,0 +1,62 @@
+#res
+{
+    border: 3px solid whitesmoke;
+    background-color: white;
+    position: relative;
+    margin-right: 12%;
+    color: black;
+}
+.centrar
+{
+    border: 12px solid black;
+    background-color: grey;
+    margin-top: -20%;
+    width: 50%;
+    margin-top: 0.5%;
+    margin-left: 25%;
+    color: white;
+}
+#res
+{
+    position: relative;
+    margin-left: 15%;
+}
+.centrar label
+{
+    margin-left: 6%;
+}
+ .centrar input 
+ {
+    position: relative;
+    background-color: gainsboro;
+    margin-left: 1%;
+    width: 71%;
+
+ }
+.centrar button
+{
+    position: relative;
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 1%;
+}
+button:hover
+{
+    background-color: grey;
+    cursor: pointer;
+}
+button:active
+{
+    background-color: black;
+    color: whitesmoke;
+}
+.centrar p
+{
+    position: relative;
+    margin-left: 45%;
+}
+.centrar h2
+{
+    position: relative;
+    margin-left: 35%;
+}
