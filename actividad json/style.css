@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: rgb(144, 24, 24);
+}
+.container
+{
+    margin-top: 10%;
+
+}
+.clo
+{
+    color: white;
+}
+
+#container
+{
+    color: white;
+    margin-left: 40%;
+    margin-top: 0%;
+    width: 40%;
+    font-size: 30px;
+}
+
+#nb2
+{
+    margin-left: 40%;
+    width: 20%;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+#nombre
+{
+    width: 40%;
+    font-size: 25px;
+    margin-left:  40%;
+    margin-top: 1%;
+}
+
+#nc
+{
+    margin-top: 2%;
+    font-size: 25px;
+    width: 40%;
+    margin-left:  40%;
+
+}
+
+#musd
+{
+    font-size: 25px;
+    width: 20%;
+    margin-left:  45%;
+}
+
+#meur
+{
+    width: 20%;
+    font-size: 25px;
+    margin-left:  45%;
+}
+
+#cbu
+{
+    font-size: 25px;
+    width: 45%;
+    margin-left:  40%;
+}
+
+#abierta
+{
+    font-size: 25px;
+    width: 30%;
+    margin-left:  40%;
+}
