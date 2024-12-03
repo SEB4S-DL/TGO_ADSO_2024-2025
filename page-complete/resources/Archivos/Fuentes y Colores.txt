@@ -1,0 +1,8 @@
+Colores 
+
+Color Primario: #ab0f0f
+Color Secundario: #1e1e1e
+
+Fuentes
+
+Poppins: https://fonts.google.com/specimen/Poppins
